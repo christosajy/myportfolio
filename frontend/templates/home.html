@@ -1,0 +1,1061 @@
+<!doctype html>
+{% load static %}
+<html class="no-js" lang="en">
+
+<head>
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<!--font-family-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+
+	<!-- title of site -->
+	<title>CHRISTO</title>
+
+	<!-- For favicon png -->
+	<link rel="shortcut icon" type="image/icon" href="{% static 'assets/logo/favicon.png' %}" />
+
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/font-awesome.min.css' %}">
+
+	<!--flat icon css-->
+	<link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+
+	<!--animate.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+
+	<!--owl.carousel.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="{% static 'assets/css/bootsnav.css' %}">
+
+	<!--style.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+
+	<!--flaticon.css-->
+	<link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> -->
+
+	<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+	<!-- top-area Start -->
+	<header class="top-area">
+		<div class="header-area">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+
+				<div class="container">
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="{% url 'f_index' %}">
+							<span> -⳩- </span>
+						</a>
+					</div>
+					<!-- End Header Navigation -->
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+							<li class=" smooth-menu active"></li>
+							<li class=" smooth-menu"><a href="#education">education</a></li>
+							<li class="smooth-menu"><a href="#skills">skills</a></li>
+							<li class="smooth-menu"><a href="#experience">experience</a></li>
+							<li class="smooth-menu"><a href="#profiles">profile</a></li>
+							<li class="smooth-menu"><a href="#portfolio">projects</a></li>
+							<!-- <li class="smooth-menu"><a href="#clients">clients</a></li> -->
+							<li class="smooth-menu"><a href="#contact">contact me</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div><!--/.header-area-->
+
+		<div class="clearfix"></div>
+
+	</header>
+	<!-- ./ header-area End -->
+
+	<!--welcome-hero start -->
+	<section id="welcome-hero" class="welcome-hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="header-text">
+						<h2>hi <span>,</span> i am <br> chr<span>i</span>sto <br> sajy<span>.</span> </h2>
+						<p> web developer and designer </p>
+						<!-- <a href="assets/download/browney.txt" download="christo.pdf">download resume</a> -->
+						<a href="{% static 'assets/docs/christo.pdf' %}">
+							<i class="fa fa-download" aria-hidden="true"></i> <span> download resume </span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--welcome-hero end -->
+
+	<!--about start -->
+	<section id="about" class="about">
+		<div class="section-heading text-center">
+			<h2>about me</h2>
+		</div>
+		<div class="container">
+			<div class="about-content">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="single-about-txt">
+							<h3 class="text-justify">
+								Welcome ! <br>
+								I am Christo Sajy and I am a Professional Software Designer and Web developer based on
+								<a href="https://www.google.com/maps/place/Kochi/">
+									<span> Kochi, </span>
+								</a>
+								<a href="https://www.google.com/maps/place/Kerala/">
+									<span> Kerala </span>
+								</a>.
+							</h3>
+							<p class="text-justify">
+								I have completed projects that sharpened my focus on Python 3 and expanded my expertise
+								in both frontend and backend development. These projects have significantly enhanced my
+								knowledge in this field. Currently, my focus in web development is centered around using
+								HTML5, CSS3, and Bootstrap for frontend design. I leverage JavaScript with jQuery to
+								enrich frontend functionality, and I employ MySQL or SQLite for efficient backend data
+								management.
+							</p>
+
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>phone</h3>
+										<a href="tel:+918848520635">
+											<p> +91-8848520635 </p>
+										</a>
+									</div>
+								</div>
+
+								<div class="col-sm-4">
+									<div class="single-about-add-info hidden"> <!-- hidden middle row -->
+										<!-- <h3>website</h3> -->
+										<!-- <p>www.brownsine.com</p> -->
+									</div>
+								</div>
+
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>email</h3>
+										<a href="mailto:christosajy24@gmail.com">
+											<p class="anchor-add-info"> christosajy24@gmail.com </p>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-5">
+						<div class="single-about-img">
+							<img src="{% static 'drives/images/mine.jpeg' %}" alt="profile_image">
+
+							<div class="about-list-icon">
+								<ul>
+									<li><!-- github-address  -->
+										<a href="https://github.com/christosajy/">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li><!-- stack-overflow  -->
+										<a href="https://stackoverflow.com/users/22838757/christo/">
+											<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li><!-- gmail-address  -->
+										<a href="mailto:christosajy24@gmail.com">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li><!-- linkedin-address  -->
+										<a href="https://in.linkedin.com/in/christosajy/">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li><!-- whatsapp-number  -->
+										<a href="https://wa.me/918848520635/">
+											<i class="fa fa-whatsapp" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/.about-->
+	<!--about end -->
+
+	<!--education start -->
+	<section id="education" class="education">
+		<div class="section-heading text-center">
+			<h2>education</h2>
+		</div>
+		<div class="container">
+			<div class="education-horizontal-timeline">
+				<div class="row">
+
+
+					<!-- education 1 starts  -->
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2> 2023 - 2024 </h2>
+								<h3> python developer </h3>
+							</div>
+
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+
+							<div class="timeline">
+								<div class="timeline-content">
+
+									<a href="https://www.luminartechnolab.com/">
+										<h4 class="title"> Luminar Technolab </h4>
+									</a>
+									<h5> Kochi, India </h5>
+								</div>
+							</div>
+						</div>
+					</div> <!-- ./ education 1  -->
+
+					<!-- education 2 starts  -->
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2> 2020 - 2023 </h2>
+								<h3> bachelor <span>of </span> computer applications </h3>
+							</div>
+
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+
+							<div class="timeline">
+								<div class="timeline-content">
+
+									<a href="https://www.mgu.ac.in/">
+										<h4 class="title"> mahatma gandhi university </h4>
+									</a>
+
+									<h5> kottayam, india </h5>
+								</div>
+							</div>
+						</div>
+					</div> <!-- ./ education 2  -->
+
+					<!-- education 3 starts  -->
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2> 2018 - 2020 </h2>
+								<h3> higher secondary education </h3>
+							</div>
+
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+
+							<div class="timeline">
+								<div class="timeline-content">
+									<a href="https://www.sahss.in/p/home-page.html">
+										<h4 class="title"> st. aloysius higher secondary school</h4>
+									</a>
+									<h5> edathua, india </h5>
+								</div>
+							</div>
+						</div>
+					</div> <!-- ./ education 3  -->
+
+				</div>
+			</div>
+		</div>
+
+	</section><!--/.education-->
+	<!--education end -->
+
+	<!--skills start -->
+	<section id="skills" class="skills">
+		<div class="skill-content">
+			<div class="section-heading text-center">
+				<h2>skills</h2>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<!-- left-1 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> html 5 </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 90% </h3>
+								</div>
+							</div><!-- /.left 1 ends -->
+
+							<!-- left 2 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> css 3 </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 85% </h3>
+								</div>
+							</div><!-- /.left 2 ends -->
+
+							<!-- left 3 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> javascript </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 70% </h3>
+								</div>
+							</div><!-- /.left 3 ends -->
+
+							<!-- /.left 4 ends -->
+							<!-- <div class="barWrapper">
+								<span class="progressText">sketch</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div> -->
+							<!-- /.left 4 ends -->
+						</div>
+					</div><!-- /.left row ends -->
+
+					<!-- /.right row starts -->
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<!-- right 1 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> python </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 80% </h3>
+								</div>
+							</div><!-- /.right 1 ends -->
+
+							<!-- right 2 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> django </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 85% </h3>
+								</div>
+							</div><!-- /.right 2 ends -->
+
+							<!-- right 3 starts -->
+							<div class="barWrapper">
+								<span class="progressText"> mysql </span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="85"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3> 85% </h3>
+								</div>
+							</div><!-- /.right 3 ends -->
+
+							<!-- right 4 starts -->
+							<!-- <div class="barWrapper">
+								<span class="progressText"> creativity</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+										</div>
+									</div>
+									<h3>90%</h3>
+								</div>
+							</div> -->
+							<!-- /.right 4 ends -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--skills end -->
+
+	<!--experience start -->
+	<section id="experience" class="experience">
+		<div class="section-heading text-center">
+			<h2>experience</h2>
+		</div>
+		<div class="container">
+			<div class="experience-content">
+				<div class="main-timeline">
+					<ul>
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="experience-time text-right">
+											<h2 class="text-uppercase"> jun 2023 - dec 2023 </h2>
+											<h3> python developer Intern </h3>
+										</div>
+									</div>
+									<div class="col-md-offset-1 col-md-5">
+										<div class="timeline">
+											<div class="timeline-content">
+												<h4 class="title">
+													<span>
+														<i class="fa fa-circle" aria-hidden="true"></i>
+													</span>
+													<a href="https://www.luminartechnolab.com/">
+														<span> luminar technolab </span>
+													</a>
+												</h4>
+												<h5> kochi, kerala, india </h5>
+												<!-- <p class="description"> Duis aute irure dolor. </p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div class="single-timeline-box fix">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="experience-time text-right">
+											<h2 class="text-uppercase"> jan 2023 - mar 2023 </h2>
+											<h3> academic project intern </h3>
+										</div>
+									</div>
+									<div class="col-md-offset-1 col-md-5">
+										<div class="timeline">
+											<div class="timeline-content">
+												<h4 class="title">
+													<span>
+														<i class="fa fa-circle" aria-hidden="true"></i>
+													</span>
+													<a href="https://www.linkedin.com/company/riss-technologies/">
+														<span> riss technologies </span>
+													</a>
+												</h4>
+												<h5> kochi, kerala, india </h5>
+												<!-- <p class="description"> Duis aute irure dolor. </p> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</section><!--/.experience-->
+	<!--experience end -->
+
+	<!--profiles start -->
+	<section id="profiles" class="profiles">
+		<div class="profiles-details">
+			<div class="section-heading text-center">
+				<h2>profiles</h2>
+			</div>
+
+			<!--top row start -->
+			<div class="container">
+				<div class="profiles-content">
+					<div class="row">
+						<!-- gmail-address  -->
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="mailto:christosajy24@gmail.com" class="anchor-icon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> gmail </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="mailto:christosajy24@gmail.com" class="anchor-icon">
+											<i class="fa fa-envelope" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> gmail </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./ gmail -->
+
+						<!-- linkedin-address  -->
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://in.linkedin.com/in/christosajy" class="anchor-icon">
+										<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> linkedin </div>
+								</div>
+
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://in.linkedin.com/in/christosajy" class="anchor-icon">
+											<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> linkedin </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./ linkedin -->
+
+						<!-- stack-overflow  -->
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://stackoverflow.com/users/22838757/christo/" class="anchor-icon">
+										<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> stack-overflow </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://stackoverflow.com/users/22838757/christo/" class="anchor-icon">
+											<i class="fa fa-stack-overflow" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> stack-overflow </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./ stack-overflow  -->
+
+						<!-- github-address  -->
+						<div class="col-sm-3">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<a href="https://github.com/christosajy/" class="anchor-icon">
+										<i class="fa fa-github" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> github </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://github.com/christosajy/" class="anchor-icon">
+											<i class="fa fa-github" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> github </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./github -->
+					</div> <!-- ./ top row  -->
+
+					<!-- horizontal partition line  -->
+					<div class="profile-border"></div>
+
+					<!-- bottom row  -->
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://www.instagram.com/christo_sajy/" class="anchor-icon">
+										<i class="fa fa-instagram" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> instagram </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://www.instagram.com/christo_sajy/" class="anchor-icon">
+											<i class="fa fa-instagram" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> instagram </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://www.quora.com/profile/Christo-Sajy-1" class="anchor-icon">
+										<i class="fa fa-quora" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> quora </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://www.quora.com/profile/Christo-Sajy-1" class="anchor-icon">
+											<i class="fa fa-quora" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> quora </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- whatsapp-number  -->
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://wa.me/918848520635/" class="anchor-icon">
+										<i class="fa fa-whatsapp" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> whatsapp </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://wa.me/918848520635/" class="anchor-icon">
+											<i class="fa fa-whatsapp" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> whatsapp </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./ whatsapp -->
+
+						<!-- telephone-number  -->
+						<div class="col-sm-3">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<a href="tel:+918848520635" class="anchor-icon">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+									</a>
+									<div class="profile-icon-name"> phone </div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="tel:+918848520635" class="anchor-icon">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+										</a>
+										<div class="profile-icon-name"> phone </div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- ./ telephone -->
+
+					</div> <!-- ./ bottom row  -->
+				</div>
+			</div>
+		</div>
+
+	</section><!--/.profiles-->
+	<!--profiles end -->
+
+	<!--portfolio start -->
+	<section id="portfolio" class="portfolio">
+		<div class="portfolio-details">
+			<div class="section-heading text-center">
+				<h2>portfolio</h2>
+			</div>
+
+			<div class="container">
+				<div class="portfolio-content">
+					<div class="isotope">
+						<div class="row">
+							<!-- div's are placed in a way such that 2nd div comes under 1st div  -->
+							<div class="col-sm-4">
+								<div class="item">
+									<img src="{% static 'assets/images/portfolio/audiocad.png' %}" alt="image" />
+									<div class="isotope-overlay">
+										<!-- github address link -->
+										<a href="https://github.com/christosajy/audioplayer.git">
+											<span> audiocad - music player website </span>
+										</a>
+									</div>
+								</div>
+								<!-- /.item -->
+								<div class="item">
+									<img src="{% static 'assets/images/portfolio/flybus.png' %}" alt="image" />
+									<div class="isotope-overlay">
+										<!-- github address link -->
+										<a href="https://github.com/christosajy/audioplayer.git">
+											<span> flybus - logistics tracker website </span>
+										</a>
+									</div>
+								</div>
+								<!-- /.item -->
+							</div>
+
+							<!-- center panel starts  -->
+							<div class="col-sm-4">
+								<div class="item">
+									<img src="{% static 'assets/images/portfolio/reinforce.png' %}" alt="image" />
+									<div class="isotope-overlay">
+										<!-- github address link -->
+										<a href="https://github.com/christosajy/reinforce.git">
+											<span> reinforce sales and services booking website </span>
+										</a>
+									</div>
+								</div>
+								<!-- /.item -->
+								<div class="item">
+									<img src="{% static 'assets/images/portfolio/colormyworld.png' %}"
+										alt="portfolio image" />
+									<div class="isotope-overlay">
+										<!-- github address link -->
+										<a href="#">
+											<span> color my world home interior designing website </span>
+										</a>
+									</div>
+								</div>
+								<!-- /.item -->
+							</div>
+							<!-- ./ center panel ends  -->
+
+							<div class="col-sm-4">
+								<div class="item">
+									<img src="{% static 'assets/images/portfolio/careerguide.png' %}"
+										alt="portfolio image" />
+									<div class="isotope-overlay">
+										<a href="#">
+											<span> careerguide - career guidance website </span>
+										</a>
+									</div>
+								</div>
+								<!-- /.item -->
+								<!-- <div class="item">
+									<img src="{% static 'assets/images/portfolio/p5.jpg' %}" alt="portfolio image" />
+									<div class="isotope-overlay">
+										<a href="#">
+											web development
+										</a>
+									</div>
+								</div> -->
+								<!-- /.item -->
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--portfolio end -->
+
+	<!--clients start -->
+	<!-- <section id="clients" class="clients">
+			<div class="section-heading text-center">
+				<h2>clients</h2>
+			</div>
+			<div class="clients-area">
+				<div class="container">
+					<div class="owl-carousel owl-theme" id="client">
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c1.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c2.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c3.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c4.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c5.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c6.png" alt="brand-image" />
+							</a>
+						</div>
+						<div class="item">
+							<a href="#">
+								<img src="assets/images/clients/c7.png" alt="brand-image" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section> -->
+	<!--/.clients-->
+
+	<!-- </section>/.clients -->
+	<!--clients end -->
+
+	<!--contact start -->
+	<section id="contact" class="contact">
+		<div class="section-heading text-center">
+			<h2>contact me</h2>
+		</div>
+		<div class="container">
+			<div class="contact-content">
+				<div class="row">
+					<div class="col-md-offset-1 col-md-5 col-sm-6">
+						<div class="single-contact-box">
+							<div class="contact-form">
+								<!-- form action and method start  -->
+								<form action="{% url 'contact_mail' %}" method="POST">
+									{% csrf_token %}
+									<div class="row">
+										<div class="col-sm-6 col-xs-12">
+											<div class="form-group">
+												<input type="text" class="form-control" name="name"
+													placeholder="Full Name*" required>
+											</div>
+										</div>
+										<div class="col-sm-6 col-xs-12">
+											<div class="form-group">
+												<input type="email" class="form-control" name="to" placeholder="Email*"
+													required>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<select name="subject" class="form-select-box">
+													<option value="subject"> subject </option>
+													<option value="feedback"> feedback </option>
+													<option value="request"> request </option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<textarea class="form-control" rows="4" id="comment" name="message"
+													placeholder="Message*" autocomplete="off" required></textarea>
+											</div>
+										</div>
+									</div>
+									<!-- submit button  -->
+									<div class="row">
+										<div class="col-sm-12">
+											<button type="submit" class="single-contact-btn">
+												<span> send message </span>
+												<i class="fa fa-send" aria-hidden="true"></i>
+											</button>
+										</div>
+									</div>
+									<!-- ./ submit button  -->
+								</form>
+								<!-- ./ form action and method end  -->
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-offset-1 col-md-5 col-sm-6">
+						<div class="single-contact-box">
+							<div class="contact-adress">
+								<div class="contact-add-head">
+									<h3> christo sajy </h3>
+									<p> web developer and designer </p>
+								</div>
+
+								<div class="contact-add-info">
+									<div class="single-contact-add-info">
+										<h3>phone</h3>
+										<a href="tel:+91-8848520635">
+											<p><i class="fa fa-phone"></i> +91-8848520635 </p>
+										</a>
+									</div>
+									<div class="single-contact-add-info">
+										<h3>email</h3>
+										<a href="mailto:christosajy24@gmail.com">
+											<p><i class="fa fa-envelope"></i> christosajy24@gmail.com </p>
+										</a>
+									</div>
+									<!-- <div class="single-contact-add-info">
+										<h3>github</h3>
+										<a href="https://github.com/christosajy">
+											<p> github/christosajy </p>
+										</a>
+									</div> -->
+								</div>
+								
+							</div>
+							<div class="hm-foot-icon">
+								<ul>
+									<li>
+										<a href="https://github.com/christosajy">
+											<i class="fa fa-github"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://wa.me/918848520635">
+											<i class="fa fa-whatsapp"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.quora.com/profile/Christo-Sajy-1/">
+											<i class="fa fa-quora"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://in.linkedin.com/in/christosajy/">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/christo_sajy/">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.container-->
+	</section>
+	<!--contact end -->
+
+	<!--footer-copyright start-->
+	<footer id="footer-copyright" class="footer-copyright">
+		<div class="container">
+			<div class="hm-footer-copyright text-center">
+				<p>
+					&copy; copyright <span class="text-main">christo sajy</span>. design and developed by <a
+						href="https://www.themesine.com/">themesine</a>
+				</p>
+			</div>
+		</div><!--/.container-->
+
+		<div id="scroll-Top">
+			<div class="return-to-top">
+				<i class="fa fa-angle-up " id="scroll-top"></i>
+			</div>
+		</div>
+
+	</footer>
+	<!--footer-copyright end-->
+
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+	<script src="{% static 'assets/js/jquery.js' %}"></script>
+
+	<!--modernizr.min.js-->
+	<!-- Online JavaScript link - 1 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+
+	<!-- bootsnav js -->
+	<script src="{% static 'assets/js/bootsnav.js' %}"></script>
+
+	<!-- jquery.sticky.js -->
+	<script src="{% static 'assets/js/jquery.sticky.js' %}"></script>
+
+	<!-- for progress bar start-->
+
+	<!-- progressbar js -->
+	<script src="{% static 'assets/js/progressbar.js' %}"></script>
+
+	<!-- appear js -->
+	<script src="{% static 'assets/js/jquery.appear.js' %}"></script>
+
+	<!-- for progress bar end -->
+
+	<!--owl.carousel.js-->
+	<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+
+	<!-- Online JavaScript link - 2 -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!--Custom JS-->
+	<script src="{% static 'assets/js/custom.js' %}"></script>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+	{% if messages %}
+	{% for i in messages %}
+	{% if i.tags == 'success' %}
+	<script>swal('{{i}}', "", 'success')</script>
+	{% elif i.tags == 'warning' %}
+	<script>swal('{{i}}', "", 'warning')</script>
+	{% elif i.tags == 'error' %}
+	<script>swal('{{i}}', "", 'error')</script>
+	{% else %}
+	<script>swal('{{i}}', "", 'info')</script>
+	{% endif %}
+	{% endfor %}
+	{% endif %}
+
+
+</body>
+
+</html>
